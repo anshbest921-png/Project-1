@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ansh Gupta — Personal Space</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="container">
+<header class="hero">
+<h1>Ansh Gupta</h1>
+<p class="mantra">Radhey radhey hare krishna</p>
+<p class="sub">A small personal space to jot ideas, notes and snippets.</p>
+</header>
+<section class="card post-area">
+<h2>My Notes</h2>
+<div id="posts" class="posts">
+<p class="empty">No posts yet — you can add one below (owner only).</p>
+</div>
+<button id="unlockBtn" class="btn">Unlock Post Form</button>
+<form id="postForm" class="hidden">
+<input id="postTitle" placeholder="Title" required />
+<textarea id="postBody" placeholder="Write your idea..." required></textarea>
+<div class="form-actions">
+<button type="button" id="saveBtn" class="btn primary">Save Post</button>
+<button type="button" id="lockBtn" class="btn">Lock</button>
+</div>
+</form>
+</section>
+<footer class="footer">
+<small>Made with ❤■ by Ansh Gupta</small>
+</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
